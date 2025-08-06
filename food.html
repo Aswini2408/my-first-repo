@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Food Delivery App</title>
+</head>
+<body>
+  <h1>Welcome to QuickEats</h1>
+  <p>Delicious food delivered to your door!</p>
+
+  <h2>🍕 Menu</h2>
+  <ul>
+    <li>Pizza    Rs-150/-</li>
+    <li>Burger    Rs-180/-</li>
+    <li>Pasta    Rs-100/-</li>
+    <li>Salad    Rs-120/-</li>
+  </ul>
+
+  <h2>🛒 Place Your Order</h2>
+  <form action="#" method="GET">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="address">Delivery Address:</label><br>
+    <textarea id="address" name="address" required></textarea><br><br>
+
+    <label for="food">Select Food:</label><br>
+    <select id="food" name="food" required>
+      <option value="">--Select--</option>
+      <option value="Pizza">Pizza</option>
+      <option value="Burger">Burger</option>
+      <option value="Pasta">Pasta</option>
+      <option value="Salad">Salad</option>
+    </select><br><br>
+
+    <button type="submit">Order Now</button>
+  </form>
+</body>
+</html>
