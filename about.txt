@@ -1,3 +1,0 @@
-I am Aswini
-Bsc(Computer Science)
-We learned about how to create a account in GitHub, how to create repository and commit changes.
